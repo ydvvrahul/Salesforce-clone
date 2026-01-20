@@ -1,0 +1,157 @@
+* {
+  font-family: "netflix Sans";
+  margin: 00px;
+  padding: 00px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+#navbar {
+  height: 13%;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1000000;
+}
+#logo {
+  height: 65%;
+}
+#logo img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+}
+.texts {
+  color: #000000;
+  font-size: 20px;
+}
+.texts:hover {
+  color: rgb(74, 141, 163);
+}
+#contactdetail {
+  text-align: center;
+
+  color: #032d60;
+  font-size: 15px;
+}
+#contactdetail:hover {
+  color: lightblue;
+}
+.icon {
+  padding: 5px;
+  color: #032d60;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.icon:hover {
+  background-color: lightblue;
+}
+#login {
+  padding: 5px;
+  color: #032d60;
+  font-size: 20px;
+  border-radius: 50px;
+}
+#login:hover {
+  background-color: rgb(109, 166, 185);
+}
+#tryff {
+  height: 35px;
+  width: 120px;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#tryff:hover {
+  background-color: black;
+}
+
+#fnav {
+  background-color: rgb(255, 255, 255);
+  height: 13%;
+  width: 100%;
+}
+
+#page1 {
+  background-color: aqua;
+  height: 87%;
+  width: 100%;
+}
+#contant {
+  background-image: url(images/backimg.webp);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#leftside {
+  font-size: 28px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#smb {
+  font-family: system-ui, -apple-system;
+  margin-top: 20px;
+}
+
+.pp {
+  font-size: 25px;
+  font-family: system-ui, -apple-system;
+  padding-bottom: 10px;
+  margin-left: 145px;
+}
+#knowmore {
+  background-color: rgb(114, 114, 255);
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin-left: 145px;
+  border: 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+}
+#knowmore:hover {
+  background-color: rgb(10, 2, 46);
+}
+
+#rightside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#vid {
+  height: 400px;
+  width: 600px;
+}
+#vid video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+}
